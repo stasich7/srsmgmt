@@ -1,0 +1,50 @@
+syntax = "proto3";
+package pb;
+option go_package = "srsmgmt.proto";
+
+import "google/protobuf/timestamp.proto";
+
+service SrsMgmt {
+  rpc GetStream (GetStreamRequest) returns (GetStreamReply) {}
+  rpc CreateStream (CreateStreamRequest) returns (CreateStreamReply) {}
+  rpc DeleteStream (DeleteStreamRequest) returns (DeleteStreamReply) {}
+
+}
+
+message Stream {
+	string id = 1;
+	string app = 2;
+	string password=3;
+	int32  status = 4;
+	string hls=5;
+	google.protobuf.Timestamp createdAt=6;
+	google.protobuf.Timestamp updatedAt=7;
+	string clientId=8;
+	google.protobuf.Timestamp startedAt=9;
+	google.protobuf.Timestamp stopedAt=10;
+}
+
+message GetStreamRequest {
+  string id = 1;
+}
+
+message GetStreamReply {
+  Stream stream = 1;
+}
+
+message CreateStreamRequest {
+  Stream stream = 1;
+}
+  
+message CreateStreamReply {
+  Stream stream = 1;
+}
+
+message DeleteStreamRequest {
+  string id = 1;
+}
+  
+message DeleteStreamReply {
+  string id = 1;
+}
+  

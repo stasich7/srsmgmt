@@ -21,7 +21,7 @@
 
 Базовая конфигурация **SRS management** сервиса:
 
-```json
+```
 DATABASE_URI=host=<host> port=<port> user=<dbuser> password=<dbpassword> dbname=<dbuser> sslmode=disable
 HTTP_ADDR=127.0.0.1:8887
 GRPC_ADDR=127.0.0.1:9087

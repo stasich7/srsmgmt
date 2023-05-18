@@ -39,3 +39,18 @@ DEBUG=true
 
 Базовая конфигурация **SRS** 
 [srs_base.tpl](config/srs_base.tpl)
+
+## Авторы
+<div style="display: inline;">
+<div style="float: left; text-align: center">
+    <a href="https://github.com/Sixty00"><img src="https://avatars.githubusercontent.com/u/48889866?v=4" style="border-radius: 50%; margin:10px 10px 10px 0px" width=80></a>
+    <label style="display:block"><a href="https://github.com/Sixty00">Sixty00</a></label>
+</div>
+<div style="float: left; text-align: center">
+    <a href="https://github.com/vjp"><img src="https://avatars.githubusercontent.com/u/423855?v=4" style="border-radius: 50%; margin:10px" width=80></a>
+    <label style="display:block"><a href="https://github.com/vjp">VJP</a></label>
+</div>
+<div style="float: left; text-align: center">
+    <a href="https://github.com/stasich7"><img src="https://avatars.githubusercontent.com/u/6511998?v=4" style="border-radius: 50%; margin:10px" width=80></a>
+    <label style="display:block"><a href="https://github.com/stasich7">Stasich7</a></label>
+</div>

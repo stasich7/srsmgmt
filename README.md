@@ -2,7 +2,7 @@
 
 The **SRS management** service is designed to provide API-based control over video streams processed by the **SRS media server**.
 
-The **Simple Realtime Server (SRS)** allows for RTMP and SRT streaming, delivering them as HLS streams with transcoding capabilities and support for multiple bitrates. However, the SRS lacks stream management functionality and the ability to restrict video streaming based on authorization.
+The **Simple Realtime Server (SRS)** (https://github.com/ossrs/srs) allows for RTMP and SRT streaming, delivering them as HLS streams with transcoding capabilities and support for multiple bitrates. However, the SRS lacks stream management functionality and the ability to restrict video streaming based on authorization.
 
 SRS management adds the following functionalities:
 - Creation of streams with specified publishing passwords for protection against unauthorized streaming.
